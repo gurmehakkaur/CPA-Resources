@@ -1,0 +1,26 @@
+[
+    {
+        "courseId": 1,
+        "name": "OOP244",
+        "urls": [
+            { "name": "Seneca Notes", "url": "https://intro2oop.sdds.ca/" },
+            { "name": "Best Professor", "url": "https://www.ratemyprofessors.com/professor/13062" }
+        ]
+    },
+    {
+        "courseId": 2,
+        "name": "DBS211",
+        "urls": [
+            { "name": "Seneca Notes", "url": "http://dbs211.ca/courses/dbs211/" },
+            { "name": "Best Professor", "url": "https://www.ratemyprofessors.com/professor/3013283" }
+        ]
+    },
+    {
+        "courseId": 3,
+        "name": "WEB222",
+        "urls": [
+            { "name": "Seneca Notes", "url": "https://web222.ca/" },
+            { "name": "Best Professor", "url": "https://www.ratemyprofessors.com/professor/13148" }
+        ]
+    }
+]

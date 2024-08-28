@@ -1,0 +1,128 @@
+[
+  {
+    "ResourceId": 1,
+    "courseId": 1,
+    "title": " Dynamic Memory       Allocation",
+    "url": "https://www.youtube.com/watch?v=FbnHOtVAgg0&list=PLxB4x6Rkylou6e6ru6iBdMGjVlUm4P4gs&index=4",
+    "imageUrl": "https://i.ytimg.com/vi/texoDnnzWao/maxresdefault.jpg"
+  },
+  {
+    "ResourceId": 2,
+    "courseId": 1,
+    "title": "Rule Of Three",
+    "url": "https://www.youtube.com/watch?v=iLvX0ct3BKw&list=PLxB4x6Rkylou6e6ru6iBdMGjVlUm4P4gs&index=10",
+    "imageUrl": "https://slideplayer.com/slide/17118594/98/images/2/Rule+of+Three+Any+object+which+manages+memory+needs%3A+Custom+Destructor.jpg"
+  },
+  {
+    "ResourceId": 3,
+    "courseId": 1,
+    "title": "Dynamic Array",
+    "url": "https://www.youtube.com/watch?v=aKlOHPx_UqM&list=PLxB4x6Rkylou6e6ru6iBdMGjVlUm4P4gs&index=17",
+    "imageUrl": "https://media.geeksforgeeks.org/wp-content/uploads/dynamicarray.png"
+  },
+  {
+    "ResourceId": 4,
+    "courseId": 1,
+    "title": "Function Templates",
+    "url": "https://www.youtube.com/watch?v=uhjuNN-cQwc&list=PLxB4x6Rkylovdf9CeIYtL5_lAu_bXKj_9&index=23",
+    "imageUrl": "https://simplesnippets.tech/wp-content/uploads/2018/03/Templates-in-C.png"
+  },
+  {
+    "ResourceId": 5,
+    "courseId": 1,
+    "title": "Abstract classes",
+    "url": "https://www.youtube.com/watch?v=jWrqwrFQkgI&list=PLxB4x6Rkylovdf9CeIYtL5_lAu_bXKj_9&index=17",
+    "imageUrl": "https://pumpkinprogrammerdotcom4.wordpress.com/wp-content/uploads/2014/07/abstract-1.jpg"
+  },
+  {
+    "ResourceId": 6,
+    "courseId": 1,
+    "title": "Derived classes with resources",
+    "url": "https://www.youtube.com/watch?v=xILuwGSxuu0&list=PLxB4x6Rkylovdf9CeIYtL5_lAu_bXKj_9&index=19",
+    "imageUrl": "https://eecs280staff.github.io/notes/_images/09_derived_class_layout.svg"
+  },
+  {
+    "ResourceId": 7,
+    "courseId": 2,
+    "title": "What is Database and DBMS",
+    "url": "https://www.youtube.com/watch?v=X7v0O8yiUuY",
+    "imageUrl": "https://i.ytimg.com/vi/X7v0O8yiUuY/maxresdefault.jpg"
+  },
+  {
+    "ResourceId": 8,
+    "courseId": 2,
+    "title": "CRUD Operations",
+    "url": "https://www.youtube.com/watch?v=ciSgLMEijOs",
+    "imageUrl": "https://i.ytimg.com/vi/ciSgLMEijOs/maxresdefault.jpg"
+  },
+  {
+    "ResourceId": 9,
+    "courseId": 2,
+    "title": "Joins",
+    "url": "https://www.youtube.com/watch?v=Yh4CrPHVBdE",
+    "imageUrl": "https://i.ytimg.com/vi/Yh4CrPHVBdE/maxresdefault.jpg"
+  },
+  {
+    "ResourceId": 10,
+    "courseId": 2,
+    "title": "Normalisation",
+    "url": "https://www.youtube.com/watch?v=GFQaEYEc8_8&t=1409s",
+    "imageUrl": "https://i.ytimg.com/vi/GFQaEYEc8_8/maxresdefault.jpg"
+  },
+  {
+    "ResourceId": 11,
+    "courseId": 2,
+    "title": "Transactions",
+    "url": "https://www.youtube.com/watch?v=GOQVlrQohtM",
+    "imageUrl": "https://i.ytimg.com/vi/GOQVlrQohtM/maxresdefault.jpg"
+  },
+  {
+    "ResourceId": 12,
+    "courseId": 2,
+    "title": "Aggregate Functions",
+    "url": "https://www.youtube.com/watch?v=jcoJuc5e3RE",
+    "imageUrl": "https://i.ytimg.com/vi/jcoJuc5e3RE/maxresdefault.jpg"
+  },
+  {
+    "ResourceId": 13,
+    "courseId": 3,
+    "title": "Regular Expressions",
+    "url": "https://www.youtube.com/watch?v=0Efx_72RehU&list=PLJgO3yLojCBM3paJ5Ar7qvc_eyX9OoxLk&index=11",
+    "imageUrl": "https://media.licdn.com/dms/image/D4D12AQEkkMz8xw7K6w/article-inline_image-shrink_1000_1488/0/1700562218871?e=2147483647&v=beta&t=MF-Ojgibn-4p7ZtABilpmROckMcOF5NZlg1Yz5W6wW0"
+  },
+  {
+    "ResourceId": 14,
+    "courseId": 3,
+    "title": "Mastering DOM",
+    "url": "https://www.youtube.com/watch?v=OTZV6Uy6-1w&list=PLJgO3yLojCBM3paJ5Ar7qvc_eyX9OoxLk&index=19",
+    "imageUrl": "https://www.pierre-giraud.com/wp-content/uploads/2019/11/javascript-representation-dom.jpg"
+  },
+  {
+    "ResourceId": 15,
+    "courseId": 3,
+    "title": "Recreating YouTube",
+    "url": "https://www.youtube.com/watch?v=Gi7IJ8n0m1Y&list=PLJgO3yLojCBM3paJ5Ar7qvc_eyX9OoxLk&index=25",
+    "imageUrl": "https://i.ytimg.com/vi/rhPSo4_Tgi0/maxresdefault.jpg"
+  },
+  {
+    "ResourceId": 16,
+    "courseId": 3,
+    "title": "HTML Forms",
+    "url": "https://www.youtube.com/watch?v=a2T1SA1ZrDI&list=PLJgO3yLojCBM3paJ5Ar7qvc_eyX9OoxLk&index=27",
+    "imageUrl": "https://media.geeksforgeeks.org/wp-content/uploads/20240418113951/image_2024-04-18_113951003-660.png"
+  },
+  {
+    "ResourceId": 17,
+    "courseId": 3,
+    "title": "Events and Event Listeners",
+    "url": "https://www.youtube.com/watch?v=uOadkugm8-g&list=PLJgO3yLojCBM3paJ5Ar7qvc_eyX9OoxLk&index=20",
+    "imageUrl": "https://javascripttoday.com/images/post/events_hu72a8770f1380309056278e4020d80056_87059_1400x0_resize_box_3.png"
+  },
+  {
+    "title": "Gurmehak",
+    "url": "https://www.youtube.com/watch?v=sXSYTUqFGVQ",
+    "imageUrl": "https://d4804za1f1gw.cloudfront.net/wp-content/uploads/sites/50/2024/04/ef5d219e-ff22-4b57-ae7b-1bd363969294.jpg",
+    "courseId": 2,
+    "ResourceId": 18
+  }
+]

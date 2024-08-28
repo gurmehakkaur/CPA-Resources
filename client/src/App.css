@@ -1,0 +1,285 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; 
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #c12a0c;
+  padding: 40px 20px;
+  position: relative;
+  border-bottom: 4px solid #a0200c;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  text-align: center;
+  line-height: 1.4;
+}
+
+#heading-h2 {
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#heading-h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 10px 0;
+  letter-spacing: 1.5px;
+}
+
+#heading-h4 {
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: 400;
+  color: #f5e9e1;
+}
+
+.college-logo {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 100px;
+  height: auto;
+}
+
+header > div:last-child {
+  margin-top: 20px;
+}
+
+#menu {
+  margin-top: 20px;
+}
+
+#menu button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+#menu button:hover {
+  background-color: #555;
+}
+
+main {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#selected-course {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  font-size: 1.25rem;
+  color: #c12a0c;
+  text-align: center;
+}
+
+#coursename {
+  text-align: center;
+  font-size: 26px;
+}
+
+#urls {
+  margin-bottom: 50px;
+}
+
+#selected-course a {
+  color: #c12a0c;
+  text-decoration: none;
+  font-weight: bold;
+  padding-bottom: 60px;
+}
+
+#selected-course a:hover {
+  text-decoration: underline;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  width: 280px;
+  text-align: center;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.card-image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}
+
+.card h3 {
+  margin: 20px 15px;
+  font-size: 1.25rem;
+  color: #444;
+  font-weight: 500;
+}
+
+.form-container {
+  max-width: 350px;
+  margin: 15px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: left;
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 20px;
+  border-bottom: 2px solid #c12a0c;
+  padding-bottom: 8px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #333;
+  font-size: 14px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 8px;
+  border: 1.5px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+  background-color: #f8f8f8;
+  transition: border-color 0.3s, background-color 0.3s;
+}
+
+.form-input:focus {
+  border-color: #c12a0c;
+  background-color: #ffffff;
+  outline: none;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.25);
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #c12a0c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #c12a0c;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.success-message {
+  margin-top: 15px;
+  padding: 10px;
+  border: 1px solid #d4edda;
+  border-radius: 5px;
+  background-color: #d4edda;
+  color: #155724;
+  font-size: 14px;
+  text-align: center;
+}
+
+footer {
+  background-color: #c12a0c;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer form {
+  margin: 0;
+}
+
+footer input[type="email"] {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  width: 250px;
+  margin-right: 10px;
+  font-size: 1rem;
+}
+
+footer .copyright {
+  margin: 10px 0 0;
+  font-size: 14px;
+  color: #ccc;
+}
+
+footer button {
+  padding: 12px 24px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+footer button:hover {
+  background-color: #555;
+}

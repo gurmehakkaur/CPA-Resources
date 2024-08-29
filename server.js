@@ -17,7 +17,7 @@ app.get('/api/courses', (req, res) => {
     res.json(courses);
 });
 
-app.get('/api/songs/:courseId', (req, res) => {
+app.get('/api/courses/:courseId', (req, res) => {
     const courseId = parseInt(req.params.courseId);
     const resources = JSON.parse(fs.readFileSync('resources.json'));
     const courseResources = resources.filter(resource => resource.courseId === courseId);

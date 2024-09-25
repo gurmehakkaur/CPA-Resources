@@ -2,6 +2,13 @@ pipeline {
     agent any
 
     stages {
+        stage('Clean') {
+            steps {
+                // Clean previous builds if necessary
+                sh 'rm -rf client/build' // Adjust this path based on your project structure
+            }
+        }
+
         stage('Build Client') {
             steps {
                 // Navigate to the client directory and build the app
@@ -14,8 +21,13 @@ pipeline {
 
         stage('Start Server') {
             steps {
-                // Start the Node.js server
-                sh 'node server.js'
+                script {
+                    // Start the Node.js server and capture output
+                    def output = sh(script: 'node server.js', returnStatus: true)
+                    if (output != 0) {
+                        error "Server failed to start"
+                    }
+                }
             }
         }
     }
@@ -26,6 +38,10 @@ pipeline {
         }
         failure {
             echo 'Build or server start failed!'
+        }
+        cleanup {
+            // Clean up actions, if needed
+            echo 'Cleaning up...'
         }
     }
 }

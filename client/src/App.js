@@ -28,7 +28,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <img src="https://2023.lightboxexpo.com/wp-content/uploads/2023/09/Seneca-Polytechnic_Logo.jpg" alt="College Logo" className="college-logo" />
+        <img src="https://pbs.twimg.com/profile_images/1696949822824017920/f6P2j75s_400x400.png" alt="College Logo" className="college-logo" />
         <div className="header-content">
           <h2 id="heading-h2">Self-Study Resources for</h2>
           <h1 id="heading-h1"> Computer Programming and Analysis </h1>

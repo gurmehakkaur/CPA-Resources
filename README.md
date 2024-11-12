@@ -1,5 +1,6 @@
 # CPA Resources
-This project is a full-stack application built with Node.js and Express. It serves an API for managing courses, resources, and newsletter subscriptions.
+Built with Node.js and Express, I have added all the resources that helped me excel in core courses at Seneca. 
+Also, I have provided the functionality for user to add resources to this website, which had been helpful to them, in real time.
 
 ## Features
 Courses API: Retrieve a list of available courses.

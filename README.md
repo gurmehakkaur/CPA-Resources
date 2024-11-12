@@ -11,19 +11,20 @@ Static File Serving: Serves the client-side build for a single-page application 
 ### Clone the repository:
 
 ``` bash
-git clone <repository-url>
-Navigate into the project folder:
+git clone https://github.com/gurmehakkaur/CPA-Resources
+```
+### Navigate into the project folder:
 
-bash
-Copy code
-cd project-name
-Install dependencies:
+```bash
+cd CPA-Resources
+```
+### Install dependencies:
 
-bash
-Copy code
+```bash
 npm install
-Start the server:
+```
 
-bash
-Copy code
+### Start the server:
+```bash
 npm start
+```

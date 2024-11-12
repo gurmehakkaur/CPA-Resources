@@ -3,7 +3,7 @@ Built with Node.js and Express, I have added all the resources that helped me ex
 Also, I have provided the functionality for user to add resources to this website, which had been helpful to them, in real time.
 ## User adding the resource
 ![image](https://github.com/user-attachments/assets/3ab27043-011c-42b6-b2dd-1eb30d819a5d) 
-## New Resource added in real time with a deafult image
+## New Resource added in real time with a default image
 ![image](https://github.com/user-attachments/assets/6cfe49e1-e59f-47b6-ad3f-124502fb41b4)
 
 
